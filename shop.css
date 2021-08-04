@@ -1,0 +1,92 @@
+body{
+    margin:0;
+    padding:0;
+    background-color:rgb(8, 0, 117) ;
+}
+*{
+    margin:0;
+    padding: 0;
+}
+.container{
+    display:grid;
+    grid-template-rows: 100px auto ;
+}
+/* LINK DECORATION ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+a{
+    text-decoration: none;
+    color: white;
+}
+/* NAVBAR ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+.menu{
+    display:flex;
+    align-items: center;
+    background-color: rgb(8, 0, 117);
+    width:100%;
+    height: 70px;
+    color:white; 
+}
+.logo{
+    margin-left:100px;
+    font-weight: bold;
+    font-size:65px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.content{
+    display:flex;
+    align-items: center;
+    list-style: none;
+    margin-left:auto; 
+    margin-right: 100px;
+}
+.hso{
+    font-weight: bold;
+    font-size:x-large;
+    margin-left:30px
+}
+/*PRODUCTS---------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+.product_container{
+    display:grid;
+    grid-template-columns: repeat(auto-fill,minmax(600px,1fr));
+    grid-template-rows: auto auto;
+    justify-content: center;
+    grid-gap: 20px;
+
+}
+.product{
+    color:white;
+    text-align: center;
+}
+.image{
+    height: 175px;
+    width: 200px;
+}
+/* FOOTER---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+.footer{
+   text-align: center;
+}
+.facebook{
+    width:50px;
+    height: 50px;
+    cursor: pointer;
+}
+/* COVER ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+.cover{
+    display:grid;
+    background-color: rgb(8, 0, 117);  
+    grid-template-columns: minmax(500px,750px) minmax(500px,750px);
+    /* grid-template-rows:minmax(500px,680px) minmax(500px,680px) ; */
+    justify-content: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.covertext{
+    background-color: white;
+    max-width:750px;
+    height:680px;
+}
+img{
+    width:100%;
+    max-width:750px;
+    height:680px;
+}
